@@ -1,0 +1,20 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "sass --watch ./src/scss/bootstrap.scss ./src/css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wiktornobis/website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wiktornobis/website/issues"
+  },
+  "homepage": "https://github.com/wiktornobis/website#readme"
+}
