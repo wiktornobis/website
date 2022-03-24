@@ -7,10 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="./src/css/main.css">
+    <script src="./src/scripts/bootstrap.js" defer async></script>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
+<nav class="navbar navbar-expand-lg navbar-light bg-primary">
+    <div class="container-xl">
         <a class="navbar-brand" href="#">Navbar</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -40,10 +41,48 @@
             </ul>
             <form class="d-flex">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
+                <button class="btn btn-warning" type="submit">Search</button>
             </form>
         </div>
     </div>
 </nav>
+
+<main class="container-xl mt-5">
+        <div class="row">
+            <div class="col-12 col-md-4 col-lg-2"><button class="btn btn-warning" type="submit" data-bs-toggle="modal" data-bs-target="#exampleModal">Search</button>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias asperiores culpa repellat! Accusamus accusantium alias aliquid assumenda aut autem commodi consequatur culpa debitis dicta distinctio eligendi eum explicabo illo, incidunt inventore iste minima molestiae nesciunt non odio pariatur quae sapiente, soluta tempora tenetur vitae voluptas! A amet beatae dolore harum iste modi odio qui totam. Animi consectetur dignissimos distinctio explicabo facilis, hic impedit iste itaque necessitatibus nemo neque similique totam voluptatem. Ducimus eos molestias repellendus. Ab cum iusto laudantium necessitatibus, nobis nostrum omnis optio, quisquam repellendus reprehenderit sunt tempore totam voluptate! Accusantium adipisci dicta rem? Dolorum iste minima possimus tempore.</div>
+            <div class="col-12 col-md-8 col-lg-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi at dolor dolores doloribus est expedita fuga, ipsam iste libero maiores, nisi nobis nostrum optio placeat quis sed similique soluta sunt tempore totam ut voluptas voluptate voluptatum! Doloribus eveniet libero odit omnis quibusdam reiciendis reprehenderit sed vel! Ab accusantium consequatur, deserunt dignissimos, dolores dolorum, maxime neque nisi obcaecati praesentium quis quos sint sunt? Adipisci aliquid consectetur, consequuntur culpa dolor dolore dolorum ducimus ea earum eum explicabo itaque iusto magnam molestiae necessitatibus optio pariatur quam repellendus reprehenderit sequi similique sint, unde velit vitae voluptate! Accusantium dolores, non perspiciatis quam similique tempora tenetur voluptatem voluptates. Architecto at deserunt dignissimos et rem soluta unde? Ab alias aliquid at atque cumque eos est expedita, harum ipsa ipsam, magnam minus odit qui quod repellat, sed similique velit voluptatum. Aut beatae consectetur cumque debitis delectus deserunt distinctio eos esse est eum excepturi exercitationem fugiat impedit, ipsam maiores mollitia necessitatibus nemo nihil odio, omnis optio perferendis, reiciendis repellat reprehenderit sapiente tempora tenetur veniam. At consectetur, eius esse eum iste iusto labore optio quas quibusdam ratione repellat sed vero. Architecto blanditiis deleniti, dolorem doloribus enim esse facilis fugit nulla quasi quisquam ratione recusandae reiciendis sapiente sequi soluta suscipit totam veritatis? At dignissimos dolorem facilis inventore magnam obcaecati odio repudiandae! Excepturi, harum, quo? Aliquid blanditiis dicta enim maiores molestias nulla quisquam tenetur voluptatem! Ab amet architecto asperiores assumenda beatae commodi cumque cupiditate distinctio dolore dolorem ea eos facere hic ipsa itaque modi molestias nihil nisi nobis, numquam odit pariatur qui quia, quidem quisquam quod sequi sunt totam ut vel! Accusamus autem cupiditate doloremque dolorum eaque esse et ex, harum ipsam iste maxime minus nam nemo numquam odio optio porro, quibusdam quisquam recusandae rem repellendus rerum saepe unde vel voluptas! Assumenda autem dignissimos esse eveniet facilis hic, inventore provident quas reiciendis.</div>
+            <div class="col-12 col-md-12 col-lg-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos explicabo hic nesciunt? A accusantium asperiores at aut beatae cum deleniti dicta dolor dolore doloribus ea eaque, fugiat illo impedit iure iusto libero maiores maxime nemo nihil nisi officia placeat quas quia quis quod repellendus saepe sapiente sequi suscipit unde voluptatibus.</col-2>
+        </div>
+</main>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
 </body>
 </html>
